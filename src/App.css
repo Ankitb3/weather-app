@@ -85,7 +85,7 @@ input{
   height: 50vh;
 }
 
-@media (max-width:330px){
+@media only screen and (max-width: 500px) and (min-width: 300px){
   .temp_section{
     height: 30vh;
     width: 230px;
@@ -103,7 +103,29 @@ input{
   }
 }
 
-@media (max-width:350px) {
+
+@media only screen and (max-width: 600px) and (min-width: 401px) {
+  .temp_section {
+    height: 30vh;
+    width: 230px;
+    margin-left: -70px;
+  }
+
+  .search-container {
+    width: 80%;
+  }
+
+  .image {
+    height: 40vh;
+    margin-top: 40px;
+  }
+
+  .temp,
+  .describtion {
+    font-weight: 400;
+  }
+}
+/* @media (max-width:350px) {
   .temp_section {
     height: 30vh;
     width: 230px;
@@ -146,7 +168,7 @@ input{
   .describtion {
     font-weight: 400;
   }
-}
+} */
 /* @media (max-width:400px) {
   .temp_section {
     height: 35vh;
@@ -168,3 +190,4 @@ input{
     font-weight: 400;
   }
 } */
+
