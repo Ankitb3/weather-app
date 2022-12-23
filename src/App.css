@@ -7,6 +7,7 @@ background: rgb(34, 193, 195);
 .app-title{
   text-align: center;
   margin-top: 50px;
+  color: white;
 }
 .search-container{
   width: 40%;
