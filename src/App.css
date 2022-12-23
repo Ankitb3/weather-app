@@ -85,34 +85,41 @@ input{
   height: 50vh;
 }
 
-
-@media  (max-width:550px){
-  body{
-    width: 100%;
-    overflow: hidden;
-  }
-  .search-container{
-    width: 60vw;
-  }
-
+@media (max-width:330px){
   .temp_section{
-    height: 40vh;
-    width: 45vw;
-    margin-left: -55px;
+    height: 30vh;
+    width: 230px;
+    margin-left: -90px;
+  }
+    .search-container {
+      width: 80%;
+    }
+  .image{
+    height: 30vh;
+    margin-top: 40px;
+  }
+  .temp,.describtion{
+    font-weight: 400;
   }
 }
-@media (max-width:500px) {
-  body {
-    width: 100vw;
-    overflow: hidden;
+/* @media (max-width:400px) {
+  .temp_section {
+    height: 35vh;
+    width: 230px;
+    margin-left: -90px;
   }
 
   .search-container {
-    width: 60vw;
+    width: 80%;
   }
 
-  .temp_section {
-    height: 40vh;
-    width: 45vw;
+  .image {
+    height: 36vh;
+    margin-top: 40px;
   }
-}
+
+  .temp,
+  .describtion {
+    font-weight: 400;
+  }
+} */
