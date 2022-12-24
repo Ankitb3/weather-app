@@ -125,6 +125,31 @@ input{
     font-weight: 400;
   }
 }
+
+
+
+@media only screen and (max-width: 299px) and (min-width: 250px) {
+  .temp_section {
+    height: 30vh;
+    width: 170px;
+    margin-left: -70px;
+  }
+
+  .search-container {
+    width: 80%;
+  }
+
+  .image {
+    height: 24vh;
+    margin-top: 40px;
+  }
+
+  .temp,
+  .describtion {
+    font-weight: 300;
+    line-height: 20px;
+  }
+}
 /* @media (max-width:350px) {
   .temp_section {
     height: 30vh;
